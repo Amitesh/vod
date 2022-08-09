@@ -1,9 +1,24 @@
 {
   "name": "vod",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Video on demand (VOD) is a small app build with nodejs, expressjs and mongodb",
   "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amitesh/vod.git"
+  },
+  "author": "Amitesh Kumar",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Amitesh/vod/issues"
+  },
+  "homepage": "https://github.com/Amitesh/vod#readme",
   "dependencies": {
-    "express": "~4.9.0",
+    "express": "^4.13.3",
     "morgan": "~1.0.0",
     "body-parser": "~1.5.0",
     "method-override": "~1.0.0",
@@ -53,10 +68,6 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  },
-  "scripts": {
-    "start": "node server/app.js",
-    "test": "grunt test"
   },
   "private": true
 }
